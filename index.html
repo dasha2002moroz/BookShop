@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=" dist/main.css">
+    <!-- <link rel="shortcut icon" href="https://lms.skillfactory.ru/static/edx-theme/images/favicon.ico" type="image/x-icon"> -->
+    <title>Bookshop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__title"><h1>Bookshop</h1></div>
+            <div class="header__menu">
+                <a href="#">BOOKS</a>
+                <a href="#">AUDIOBOOKS</a>
+                <a href="#">STATIONERY & GIFTS</a>
+                <a href="#">BLOG</a>
+            </div>
+            <div class="header__icons">
+                <a href="#" class="header__icons_user">
+                    <img src="src/images/user.svg" alt="user">
+                </a>
+                <a href="#" class="header__icons_search">
+                    <img src="src/images/search.svg" alt="search">
+                </a>
+                <a href="#" class="header__icons_shop">
+                    <img src="src/images/shop bag.svg" alt="shop">
+                    <span class="basket__count"></span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="container__image">
+                <div class="container__image_scrolling">
+                    <img src="src/images/banner.png" alt="banner 1" id="first_photo" max-width="1120px" height="702px">
+                    <img src="src/images/banner 2.png" alt="banner 2" id="second_photo" max-width="1120px" height="702px">
+                    <img src="src/images/banner 3.png" alt="banner 3" id="third_photo" max-width="1120px" height="702px">
+                </div>
+            </div>
+
+            <div class="container__switch">
+                <button class="container__switch_prew1">
+                   <img src="src/images/Ellipse 4.svg" alt="" class="ellipse1">
+                    <img src="src/images/Ellipse 6.svg" alt="" class="ellipse2">
+                </button>
+                <button class="container__switch_prew2">
+                    <img src="src/images/Ellipse 4.svg" alt="" class="ellipse3">
+                    <img src="src/images/Ellipse 6.svg" alt="" class="ellipse4">
+                </button>
+                <button class="container__switch_prew3">
+                    <img src="src/images/Ellipse 4.svg" alt="" class="ellipse5">
+                    <img src="src/images/Ellipse 6.svg" alt="" class="ellipse6">
+                </button>
+            </div>
+
+            <div class="container__promo_lilac">
+                <a href="#">
+                    <p style="color: #1C2A39;">
+                        Change
+                        <br>
+                        old book
+                        <br>
+                        on new
+                    </p>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                        <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"></path>
+                        <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"></path>
+                    </svg>
+            </a>
+            </div>
+
+            <div class="container__promo_pink">
+                <a href="#">
+                    <p style="color: #1C2A39;">
+                        top
+                        <br>
+                        100
+                        <br>
+                        books
+                        <br>
+                        2022
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                        <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"></path>
+                        <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <section class="section-navigation">
+                <ul class="section-navigation__category-list">
+                </ul>
+            </section>
+
+            <section class="container__section__books">
+                <div class="container__section__books__body">
+                    <div class="container__section__books__body__cards"></div>
+                    <div class="container__section__books__body__button">
+                        <button class="container__section__books__body__button_load-more">
+                            Load more
+                        </button>
+                    </div>
+                    </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+
+<script src="dist/main.js"></script>
+</html>
